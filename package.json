@@ -1,0 +1,18 @@
+{
+  "name": "MPPaIPE",
+  "version": "0.0.1",
+  "description": "Mobile Phone Prefix and International Prefix Extractor!",
+  "main": "index.js",
+  "scripts": {
+    "extractor": "node index.js --extractor http://en.wikipedia.org/wiki/List_of_mobile_phone_number_series_by_country",
+    "ex": "npm run extractor"
+  },
+  "author": "Daniele Brugnara",
+  "license": "ISC",
+  "repository": "git@github.com:futur3/MPPaIPE.git",
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "commander": "^2.3.0",
+    "superagent": "^0.18.2"
+  }
+}
