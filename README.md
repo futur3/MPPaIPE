@@ -31,3 +31,9 @@ I'll fix, but not now, we don't need those fields, for now.
 ## Dictionary
 
 - NSN: National Significant Number, i.e. the number of digits after the country code excluding any trunk code or access code.
+
+# Cache
+
+First time you run this extractor, the page got from wikipedia, wil be stored into `cache.html`.
+
+You can rename `working_cache.html` into `cache.html` if for some reason, the page got from wikipedia, fails parsing.
