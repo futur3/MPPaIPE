@@ -12,6 +12,7 @@ File `out.json` contains what you need.
 Ectract from wikipedia all required data.
 
 ```
+# output will got automagically to out.json
 npm run extractor
 ```
 
